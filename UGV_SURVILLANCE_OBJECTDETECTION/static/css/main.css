@@ -1,0 +1,132 @@
+body{background-color: #eff2f9;}
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: relative;
+    border: 5px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    transform: translateX(5%);
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.btn78{
+    padding: 12px 12px;
+     background: #39D2B4;
+    color: #fff;
+    font-size: 1em;
+    height: 47px;
+    width:  100px;
+    border-radius:25%/100%;
+    border:#39D2B4;
+    transform: translateX(5%);
+    transform: translateY(707%);
+}
+
+
+.card6{
+border: 1px solid #007bff;
+width: 280px;
+height:350px;
+position: absolute;
+}
+input[type="file"] {
+    display: none;
+}
+.upload-label{
+    display: inline-block;
+    padding: 12px 30px;
+    background: #39D2B4;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+     transform: translateY(95%);
+      border-radius:25%/100%
+}
+.upload-label:hover{
+    background: #34495E;
+    color: #39D2B4;
+}
+.btn78:hover{
+    background: #34495E;
+    color: #39D2B4;
+}
+
+.up {
+  margin: 0;
+  position: absolute;
+  top: 46%;
+  transform: translateX(110%);
+}
+.card7{
+border: 1px solid #007bff;
+width: 250px;
+height:350px;
+position: absolute;
+transform:translateY(200%);
+transform: translateX(200%);
+}
+.score{
+transform: translateX(20%);
+  font-size: 15px;
+
+}
+.card8{
+border: 1px solid #007bff;
+width:500px;
+height:350px;
+position: relative;
+transform: translateX(200%);
+transform:translateY(200%);
+}
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.imgre{
+     width: 256px;
+    height: 256px;
+     border: 5px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.res{
+transform:translateY(175%);
+}
+
+.almsg{
+transform:translateY(2500%);
+}
